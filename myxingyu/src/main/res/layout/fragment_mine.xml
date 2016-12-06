@@ -1,0 +1,145 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.leielyq.mine.MineFragment">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/xingkong2" />
+
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="80dp"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/iv_img"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/banjiao"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/bt_mine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/banjiao1"
+                android:backgroundTint="@color/dark"
+                android:text="@string/my_title"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/bt_last"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/banjiao2"
+                android:backgroundTint="@color/yellow"
+                android:text="@string/last_title"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/bt_like"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/banjiao3"
+                android:backgroundTint="@color/gray"
+                android:text="我的收藏"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_above="@+id/iv_do_num"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp"
+            android:layout_toRightOf="@+id/iv_img"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_send_num"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignTop="@+id/iv_do_num"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/tv_do_num"
+            android:layout_toRightOf="@+id/tv_do_num"
+            app:srcCompat="@drawable/ic_assignment" />
+
+        <TextView
+            android:id="@+id/tv_send_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_send_num"
+            android:layout_alignTop="@+id/iv_send_num"
+            android:layout_toEndOf="@+id/iv_send_num"
+            android:layout_toRightOf="@+id/iv_send_num"
+            android:gravity="center_vertical"
+            android:text="@string/user_flag"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/iv_do_num"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@+id/iv_img"
+            android:layout_alignLeft="@+id/tv_name"
+            android:layout_alignStart="@+id/tv_name"
+            app:srcCompat="@drawable/ic_assignment_returned" />
+
+        <TextView
+            android:id="@+id/tv_do_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout"
+            android:layout_below="@+id/tv_name"
+            android:layout_toEndOf="@+id/iv_do_num"
+            android:layout_toRightOf="@+id/iv_do_num"
+            android:gravity="center_vertical"
+            android:text="@string/user_flag"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/bt_quit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/linearLayout"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bt"
+            android:backgroundTint="@color/white"
+            android:text="@string/out" />
+
+    </RelativeLayout>
+</ScrollView>

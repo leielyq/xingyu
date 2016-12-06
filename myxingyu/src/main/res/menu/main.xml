@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_nav_ui"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="首页"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bottom_nav_data"
+        android:enabled="true"
+        android:icon="@drawable/ic_plus_one"
+        android:title="动态"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bottom_nav_service"
+        android:enabled="true"
+        android:icon="@drawable/ic_done"
+        android:title="发现"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bottom_nav_net"
+        android:enabled="true"
+        android:icon="@drawable/ic_my"
+        android:title="我的"
+        app:showAsAction="ifRoom" />
+</menu>

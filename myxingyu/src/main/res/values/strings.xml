@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">星语</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login">登陆</string>
+    <string name="soonreg">立即注册</string>
+    <string name="forgetpaaword">忘记密码</string>
+    <string name="password">密码</string>
+    <string name="username">用户名</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_msend">MSendActivity</string>
+    <string name="doing">新功能正在建设中</string>
+    <string name="toast_item">点击右下角“＋”，就可以添加数据了，单击列表项修改内容</string>
+    <string name="question">问题</string>
+    <string name="add_img">添加图片</string>
+    <string name="select_item">选项</string>
+    <string name="num">分值</string>
+    <string name="toast_result">中间的结果填写测试的结果，左边的分值表示该结果所需的最低分，右边的分值表示该结果所需的最高分</string>
+    <string name="title">题目</string>
+    <string name="toast_error">加载失败，下拉刷新试试</string>
+    <string name="welcome01">欢迎加入星语！</string>
+    <string name="welcome02">立即开启王的征程</string>
+    <string name="sign">还没有账户？去注册</string>
+    <string name="forget">记密码伤脑子</string>
+    <string name="my_title">我的题目</string>
+    <string name="last_title">最近浏览</string>
+    <string name="user_flag">用户标识</string>
+    <string name="out">退出登录</string>
+    <string name="toast_send_list">点击右下角“＋”，就可以添加数据了，单击列表项修改内容</string>
+    <string name="toast_send">点击标题栏的“√”提交题目，提交完题目不会退出该界面</string>
+    <string name="big_title">大标题</string>
+    <string name="context">详细介绍,上面的hp用于娱乐类型的题目，测试类型不用填写</string>
+    <string name="welcome03">立即开启注册之旅</string>
+    <string name="sign_now">注册</string>
+    <string name="load_more">继续加载</string>
+    <string name="test">测试</string>
+    <string name="no_title">题目：未知</string>
+    <string name="no_num">数量：未知</string>
+    <string name="no_type">类型：未知</string>
+    <string name="small_title">小题目</string>
+    <string name="toast_mine">点击头像更换头像</string>
+    <string name="hp">hp</string>
+</resources>
