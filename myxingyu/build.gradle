@@ -40,6 +40,6 @@ dependencies {
     compile 'cn.pedant.sweetalert:library:1.3'
     compile 'com.github.lsjwzh.RecyclerViewPager:lib:v1.1.1'
     compile 'com.yancy.imageselector:imageselector:1.3.3'
-    compile 'me.yokeyword:fragmentation:0.8.0'
+    compile 'me.yokeyword:fragmentation:0.8.6'
     testCompile 'junit:junit:4.12'
 }
